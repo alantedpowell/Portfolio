@@ -666,8 +666,9 @@ header button.accesibility-toggle-on {
 }
 
 .portfolio-section .portfolio-section-gallery .item img {
-  width: 100%;
+  width: 50%;
   display: block;
+  margin: auto;
 }
 
 .portfolio-section .portfolio-section-gallery .item .overlay {
@@ -707,6 +708,13 @@ header button.accesibility-toggle-on {
   animation: galleryIcon 0.8s ease;
 }
 
+.portfolio-section .portfolio-section-gallery a.visit-link {
+  color: #fff;
+  font-size: 2rem;
+  text-decoration: none;
+  padding-top: 2%;
+}
+
 @keyframes galleryIcon {
   0% {
     transform: translateY(-40px);
@@ -730,6 +738,12 @@ header button.accesibility-toggle-on {
 .portfolio-section .portfolio-section-gallery .item:hover .overlay h4 {
   -webkit-animation: galleryText 0.8s ease;
   animation: galleryText 0.8s ease;
+}
+
+.project-title {
+  text-align: center !important;
+  margin-bottom: 5%;
+  color: #6a89cc;
 }
 
 @keyframes galleryText {
